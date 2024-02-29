@@ -1,0 +1,41 @@
+
+
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    script(type='text/javascript').
+      
+  body
+    header.header 
+      .logo
+      nav.navi
+        ul.navi__list 
+          li.navi__list-item  
+            button.navi__list-item-btn
+              p.navi__list-item-txt BOOKS
+          li.navi__list-item
+            button.navi__list-item-btn
+              p.navi__list-item-txt AUDIOBOOKS
+          li.navi__list-item
+            button.navi__list-item-btn
+             p.navi__list-item-txt STATIONERY & GIFTS
+          li.navi__list-item
+           button.navi__list-item-btn
+             p.navi__list-item-txt BLOG
+       
+
+      .userblock 
+        button.userblock__profile 
+          img(src="./assets/png/profile.png", alt="profile").userblock__search-icon
+        button.userblock__search 
+          img(src="./assets/png/search.png", alt="search").userblock__search-icon
+        button.userblock__cart 
+          img(src="./assets/png/cart.png", alt="cart").userblock__cart-icon 
+    .banner 
+      img(src="./assets/jpg/banner1_prog.jpg", alt="banner")
+
+    

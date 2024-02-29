@@ -1,0 +1,33 @@
+{
+  "name": "2024.02.29-bookshop-googleapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "scss-loader": "^0.0.1",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.2"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "html-loader": "^5.0.0",
+    "html-webpack-plugin": "^5.6.0",
+    "json-loader": "^0.5.7",
+    "pug": "^3.0.2",
+    "pug-plugin": "^4.9.9",
+    "sass": "^1.71.1",
+    "sass-loader": "^14.1.1"
+  },
+  "description": ""
+}
